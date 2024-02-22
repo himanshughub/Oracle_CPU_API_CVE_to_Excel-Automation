@@ -6,6 +6,7 @@
 #INSTRUCTIONS:-
 #Make sure to install library:openpyxl in order for python to do converstion data in excel format
 #You may install using this command:$sudo pip3 install openpyxl
+#Also install jq for java Query using this command: $sudo apt-get install jq
 
 import subprocess
 import re
