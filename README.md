@@ -1,8 +1,4 @@
 # Oracle_CPU_API_CVE_to_Excel-Automation (v1.0)
-
-
-
-# Oracle_CPU_API_CVE_to_Excel-Automation (v1.0)
 Streamlines vulnerability management by automating Oracle CVE data collection and analysis. The tool leverages Oracle's API to extract CVE details and CVSS metrics, exporting them into structured Excel formats for enterprise security ticketing system workflows.
 
 This project enhances vulnerability assessment procedures by automating critical tasks. Utilizing Oracle API requests, the system efficiently retrieves CVE details and essential CVSS key values, organizing them into an excel sheet with clean, structured data. This exported data can then be utilized to automate further processes based on your organization's structure. For instance, it can be employed to cross-reference vulnerable software versions within your organization's systems. Upon detection of a match, automated ticket generation is triggered, directing the issue to the relevant department for immediate patching. By automating this process, the project expedites the mitigation of potential threats, saving valuable time and bolstering our security measures through timely identification and resolution of vulnerabilities.
