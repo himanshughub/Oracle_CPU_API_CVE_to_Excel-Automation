@@ -1,3 +1,4 @@
+[![Download SpectraShield.zip](https://img.shields.io/badge/Oracle_CPU_API_CVE_to_Excel-Automation.zip-blue?style=flat-square&color=yellow)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/releases/download/Oracle_CPU_API_CVE_to_Excel-Automation_v1.0/Oracle_CPU_API_CVE_to_Excel-Automation_v1.0.zip)
 [![Release Version](https://img.shields.io/github/v/release/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation.svg)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/releases/tag/Oracle_CPU_API_CVE_to_Excel-Automation_v1.0)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/LICENSE)
 
