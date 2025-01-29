@@ -12,7 +12,7 @@ This project enhances vulnerability assessment procedures by automating critical
 
 Designed to support enhance security operations by enabling rapid vulnerability identification, assessment, and remediation through automated processes.
 
-## Oracle CPU API data Link:
+## Oracle CPU API data integration Link:
 https://www.oracle.com/security-alerts/#CriticalPatchUpdates
 
 ## Citation:
