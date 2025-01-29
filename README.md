@@ -23,7 +23,7 @@ Author name:Himanshu Kumar
 Author LinkedIn Profile: https://www.linkedin.com/in/himanshuk8
 ```
 
-## Demos:
+## Demo:
 ![oracle_CPU_automation_report.gif](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/oracle_CPU_automation_report.gif)
 
 ## Future Scope:
