@@ -16,9 +16,10 @@ The existing process involved manually:
 Step 1: Extracting vulnerability data from the Oracle Critical Patch Update (CPU) database
 Step 2: Converting the JSON-formatted CVE vulnerability data from Oracle CPU into a structured Excel table for analysis, as the raw data structure was not directly compatible with the team's analysis requirements. This transformation step was necessary to create a readable and analyzable format that could be effectively used for vulnerability assessment.
 
- ** Below is the raw CVE vulnerability data as it appears in Oracle CPU database: **
+ **Below is the raw CVE vulnerability data as it appears in Oracle CPU database:**
 ![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/Oracle_CPU_database_Release.png)
 
+![Oracle_CPU_raw_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/oracle_raw_json_data.png)
 
 Step 3: Cross-referencing this data against the university's inventory of Oracle products and versions
 Identifying applicable vulnerabilities from a database of over 10,000 entries
@@ -53,7 +54,7 @@ Author LinkedIn Profile: https://www.linkedin.com/in/himanshuk8
 ```
 
 ## Demo:
-![oracle_CPU_automation_report.gif](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/oracle_CPU_automation_report.gif)
+![oracle_CPU_automation_report.gif](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/video/oracle_CPU_automation_report.gif)
 
 ## Future Scope:
 I am currently engaged in an independent project aimed at enhancing the autonomy and convenience of the aforementioned system. The goal is to enable users to identify vulnerabilities associated with all software installed across their organization's network without the need for conventional vulnerability scanning tools. Given that such tools rely on CVE data from entities like NIST, there is often a delay in updating their databases, which can impact the accuracy and timeliness of vulnerability assessments. By directly importing data from NIST and comparing it with the current software versions installed in your organization, we aim to expedite the vulnerability assessment process while minimizing network traffic load and reducing the likelihood of false positive detections by SIEM tools.
