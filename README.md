@@ -17,7 +17,7 @@ Step 1: Extracting vulnerability data from the Oracle Critical Patch Update (CPU
 Step 2: Converting the JSON-formatted CVE vulnerability data from Oracle CPU into a structured Excel table for analysis, as the raw data structure was not directly compatible with the team's analysis requirements. This transformation step was necessary to create a readable and analyzable format that could be effectively used for vulnerability assessment.
 
 • Below is the raw CVE vulnerability data as it appears in Oracle CPU database:
-![Oracle_CPU_vulnerability_database_snapshot](link)
+![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/Oracle_CPU_database_Release.png)
 
 
 Step 3: Cross-referencing this data against the university's inventory of Oracle products and versions
