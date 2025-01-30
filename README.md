@@ -43,7 +43,7 @@ By using this tool, the manual work is automated, completing the same task in un
 - jq: jq-1.6
 - pandas: 1.3.4
 
-##Commands to install libraries
+## ⚙️ Commands to install libraries
 - sudo apt install jq
 - sudo apt install python3-pip
 - pip3 install pandas
