@@ -3,7 +3,7 @@
 [![Release Version](https://img.shields.io/github/v/release/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation.svg)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/releases/tag/Oracle_CPU_API_CVE_to_Excel-Automation_v1.0)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/LICENSE)
 
-# About:
+# About the tool:
 I implemented this project to streamlines vulnerability management by automating Oracle CVE data collection and analysis. The tool leverages Oracle's API to extract CVE details and CVSS metrics, exporting them into structured Excel formats for enterprise security ticketing system workflows.
 
 This project enhances vulnerability assessment procedures by automating critical tasks for the University. The tool makes requests to Oracle's API to pull their CPU (Critical Patch Update) vulnerability database and collects specific data from the unstructured JSON formatting. This includes details such as CVE, Product Name, Component, Protocol, Remote Exploit, Base Score, Attack Vector, Attack Complexity, Privileges Required, User Interaction, Scope, Confidentiality, Integrity, Availability, Supported Versions Affected, and Reference Link values. Upon collecting these values, it exports the data to an Excel sheet in an organized, structured way, making it ready for integration with the university's ticketing system workflows. This enables automatic ticket creation with the concerned internal departments who own the affected servers, allowing them to patch these vulnerabilities.
@@ -19,7 +19,7 @@ Step 1: Extracting vulnerability data from the Oracle Critical Patch Update (CPU
 Step 2: Converting the JSON-formatted CVE vulnerability data from Oracle CPU into a structured Excel table for analysis, as the raw data structure was not directly compatible with the team's analysis requirements. This transformation step was necessary to create a readable and analyzable format that could be effectively used for vulnerability assessment.
 
  **Below is the raw CVE vulnerability data as it appears in Oracle CPU database:**
-![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/Oracle_CPU_database_Release.png)
+![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/Oracle_CPU_database_Release.png)
 
 ![Oracle_CPU_raw_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/oracle_raw_json_data.png)
 
