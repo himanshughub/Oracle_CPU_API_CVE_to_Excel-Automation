@@ -13,7 +13,9 @@ During my internship with the Information Security team at the University of Del
 The university maintained critical servers where traditional vulnerability scanners (like Tenable/Nessus, Qualys) couldn't be deployed, as scanning these systems could trigger unnecessary security alerts and potentially impact business operations. This required an alternative approach to vulnerability assessment.
 
 The existing process involved manually:
+
 Step 1: Extracting vulnerability data from the Oracle Critical Patch Update (CPU) database
+
 Step 2: Converting the JSON-formatted CVE vulnerability data from Oracle CPU into a structured Excel table for analysis, as the raw data structure was not directly compatible with the team's analysis requirements. This transformation step was necessary to create a readable and analyzable format that could be effectively used for vulnerability assessment.
 
  **Below is the raw CVE vulnerability data as it appears in Oracle CPU database:**
