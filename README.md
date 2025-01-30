@@ -19,6 +19,14 @@ This project enhances vulnerability assessment procedures by automating critical
 # Challenges - Manual Oracle Vulnerability Assessment
 During my internship with the Information Security team at the University of Delaware, I identified a significant operational challenge in their vulnerability management process. Since the team could not use commercial vulnerability scanning tools like Tenable for their critical servers, which were hosted on Oracle applications, they manually extracted values from unstructured vulnerability data (which has over 10,000+ CVE entries) from the Oracle CPU database and added those values to an Excel sheet. Once the Excel sheet report was ready, they uploaded it to the ticketing system to automatically generate tickets for the respective departments responsible for patching vulnerabilities on those servers. This manual process required significant effort, consumed many hours and introduces the risk of human error.
 
+In brief points:
+ • Inability to use commercial vulnerability scanning tools like Tenable for critical servers hosted on Oracle applications.
+ • Manual extraction of values from unstructured vulnerability data with over 10,000+ CVE entries in the Oracle CPU database.
+ • Data was manually added to an Excel sheet, which was time-consuming and labor-intensive.
+ • Uploading the Excel sheet to the ticketing system to generate tickets for departments responsible for patching vulnerabilities.
+ • High risk of human error in the manual process.
+ • Significant effort and hours required to complete the process.
+
  **Below is an example how the raw unstructured JSON formatting CVE vulnerability data appears in Oracle CPU database:**
 
     • Select the Month/Year for which you would like to see data for:
