@@ -29,10 +29,10 @@ During my internship with the Information Security team at the University of Del
 
  **Below is an example how the raw unstructured JSON formatting CVE vulnerability data appears in Oracle CPU database:**
 
-    • Select the Month/Year for which you would like to see data for:
+  - Select the Month/Year for which you would like to see data for:
  ![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/Oracle_CPU_database_Release.png)
 
-    • View of the raw unstructured JSON formatting data:
+  - View of the raw unstructured JSON formatting data:
 ![Oracle_CPU_raw_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/oracle_raw_json_data.png)
 
 
