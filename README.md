@@ -3,7 +3,7 @@
 [![Release Version](https://img.shields.io/github/v/release/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation.svg)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/releases/tag/Oracle_CPU_API_CVE_to_Excel-Automation_v1.0)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/LICENSE)
 
-# Citation:
+## Citation:
 If you found this repository helpful, please cite my Github repository link & name in your post :)
 ```bash
 Repository Link: https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/
@@ -11,12 +11,12 @@ Author name:Himanshu Kumar
 Author LinkedIn Profile: https://www.linkedin.com/in/himanshuk8
 ```
 
-# About the tool:
+## About the tool:
 I implemented this project to streamlines vulnerability management by automating Oracle CVE data collection and analysis. The tool leverages Oracle's API to extract CVE details and CVSS metrics, exporting them into structured Excel formats for enterprise security ticketing system workflows.
 
 This project enhances vulnerability assessment procedures by automating critical tasks for the University. The tool makes requests to Oracle's API to pull their CPU (Critical Patch Update) vulnerability database and collects specific data from the unstructured JSON formatting. This includes details such as CVE, Product Name, Component, Protocol, Remote Exploit, Base Score, Attack Vector, Attack Complexity, Privileges Required, User Interaction, Scope, Confidentiality, Integrity, Availability, Supported Versions Affected, and Reference Link values. Upon collecting these values, it exports the data to an Excel sheet in an organized, structured way, making it ready for integration with the university's ticketing system workflows. This enables automatic ticket creation with the concerned internal departments who own the affected servers, allowing them to patch these vulnerabilities.
 
-# Challenges - Manual Oracle Vulnerability Assessment
+## Challenges - Manual Oracle Vulnerability Assessment
 During my internship with the Information Security team at the University of Delaware, I identified a significant operational challenge in their vulnerability management process. Since the team could not use commercial vulnerability scanning tools like Tenable for their critical servers, which were hosted on Oracle applications, they manually extracted values from unstructured vulnerability data (which has over 10,000+ CVE entries) from the Oracle CPU database and added those values to an Excel sheet. Once the Excel sheet report was ready, they uploaded it to the ticketing system to automatically generate tickets for the respective departments responsible for patching vulnerabilities on those servers. This manual process required significant effort, consumed many hours and introduces the risk of human error.
 
 ### In brief points:
@@ -36,7 +36,7 @@ During my internship with the Information Security team at the University of Del
 ![Oracle_CPU_raw_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/oracle_raw_json_data.png)
 
 
-# Why use this tool?
+## Why use this tool?
 By using this tool, the manual work is automated, completing the same task in under two seconds and saving hours of manual work with no human error. The script is equipped with an API integration feature that fetches data in real time from the Oracle database, identifies values by analyzing their JSON syntax, and scrapes the data into the Excel sheet in a structured manner. Later, this Excel sheet is fed into the TDX ticketing system workflow to automate ticket creation with the internal department responsible for patching vulnerabilities on those servers.
 
 ## 📚 Library Versions used
