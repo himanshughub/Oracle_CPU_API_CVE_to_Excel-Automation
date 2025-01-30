@@ -3,10 +3,34 @@
 [![Release Version](https://img.shields.io/github/v/release/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation.svg)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/releases/tag/Oracle_CPU_API_CVE_to_Excel-Automation_v1.0)
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/LICENSE)
 
-
-Streamlines vulnerability management by automating Oracle CVE data collection and analysis. The tool leverages Oracle's API to extract CVE details and CVSS metrics, exporting them into structured Excel formats for enterprise security ticketing system workflows.
+# About:
+I implemented this project to streamlines vulnerability management by automating Oracle CVE data collection and analysis. The tool leverages Oracle's API to extract CVE details and CVSS metrics, exporting them into structured Excel formats for enterprise security ticketing system workflows.
 
 This project enhances vulnerability assessment procedures by automating critical tasks. Utilizing Oracle API requests, the system efficiently retrieves CVE details and essential CVSS key values, organizing them into an excel sheet with clean, structured data. This exported data can then be utilized to automate further processes based on your organization's structure. For instance, it can be employed to cross-reference vulnerable software versions within your organization's systems. Upon detection of a match, automated ticket generation is triggered, directing the issue to the relevant department for immediate patching. By automating this process, the project expedites the mitigation of potential threats, saving valuable time and bolstering our security measures through timely identification and resolution of vulnerabilities.
+
+# Challenges - Manual Oracle Vulnerability Assessment
+During my internship with the Information Security team at the University of Delaware, I identified a significant operational challenge in their vulnerability management process. The team needed to assess Oracle product (which they have in production) vulnerabilities but faced several constraints:
+The university maintained critical servers where traditional vulnerability scanners (like Tenable/Nessus, Qualys) couldn't be deployed, as scanning these systems could trigger unnecessary security alerts and potentially impact business operations. This required an alternative approach to vulnerability assessment.
+
+The existing process involved manually:
+Step 1: Extracting vulnerability data from the Oracle Critical Patch Update (CPU) database
+Step 2: Converting the JSON-formatted CVE vulnerability data from Oracle CPU into a structured Excel table for analysis, as the raw data structure was not directly compatible with the team's analysis requirements. This transformation step was necessary to create a readable and analyzable format that could be effectively used for vulnerability assessment.
+
+• Below is the raw CVE vulnerability data as it appears in Oracle CPU database:
+![Oracle_CPU_vulnerability_database_snapshot](link)
+
+
+Step 3: Cross-referencing this data against the university's inventory of Oracle products and versions
+Identifying applicable vulnerabilities from a database of over 10,000 entries
+Creating tickets for relevant internal departments to address identified vulnerabilities
+
+This manual process was highly inefficient, typically requiring several hours to complete and introducing the risk of human error. The team needed a more streamlined approach to effectively manage Oracle vulnerabilities while maintaining their security standards.
+
+# Why use this tool?
+By using this tool, it automates the manual work do the same work in just 2 seconds.
+
+
+Univerties had several Oracle servers which 
 
 ## Key Features:
 - Automated CVE data retrieval via Oracle API
