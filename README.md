@@ -9,18 +9,14 @@ I implemented this project to streamlines vulnerability management by automating
 This project enhances vulnerability assessment procedures by automating critical tasks for the University. The tool makes requests to Oracle's API to pull their CPU (Critical Patch Update) vulnerability database and collects specific data from the unstructured JSON formatting. This includes details such as CVE, Product Name, Component, Protocol, Remote Exploit, Base Score, Attack Vector, Attack Complexity, Privileges Required, User Interaction, Scope, Confidentiality, Integrity, Availability, Supported Versions Affected, and Reference Link values. Upon collecting these values, it exports the data to an Excel sheet in an organized, structured way, making it ready for integration with the university's ticketing system workflows. This enables automatic ticket creation with the concerned internal departments who own the affected servers, allowing them to patch these vulnerabilities.
 
 # Challenges - Manual Oracle Vulnerability Assessment
-During my internship with the Information Security team at the University of Delaware, I identified a significant operational challenge in their vulnerability management process. The team needed to assess Oracle product (which they have in production) vulnerabilities but faced several constraints:
-The university maintained critical servers where traditional vulnerability scanners (like Tenable/Nessus, Qualys) couldn't be deployed, as scanning these systems could trigger unnecessary security alerts and potentially impact business operations. This required an alternative approach to vulnerability assessment.
+During my internship with the Information Security team at the University of Delaware, I identified a significant operational challenge in their vulnerability management process. Since the team could not use commercial vulnerability scanning tools like Tenable for their critical servers, which were hosted on Oracle applications, they manually extracted values from unstructured vulnerability data from the Oracle CPU database and added those values to an Excel sheet. Once the Excel sheet report was ready, they uploaded it to the ticketing system to automatically generate tickets for the respective departments responsible for patching vulnerabilities on those servers. This manual process required significant effort, consumed many hours and introduces the risk of human error.
 
-The existing process involved manually:
+ **Below is an example how the raw unstructured JSON formatting CVE vulnerability data appears in Oracle CPU database:**
 
-Step 1: Extracting vulnerability data from the Oracle Critical Patch Update (CPU) database
+**Select the Month/Year for which you would like to see data for:
+ ![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/Oracle_CPU_database_Release.png)
 
-Step 2: Converting the JSON-formatted CVE vulnerability data from Oracle CPU into a structured Excel table for analysis, as the raw data structure was not directly compatible with the team's analysis requirements. This transformation step was necessary to create a readable and analyzable format that could be effectively used for vulnerability assessment.
-
- **Below is the raw CVE vulnerability data as it appears in Oracle CPU database:**
-![Oracle_CPU_vulnerability_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/Oracle_CPU_database_Release.png)
-
+ **View of the raw unstructured JSON formatting data:
 ![Oracle_CPU_raw_database_snapshot](https://github.com/himanshughub/Oracle_CPU_API_CVE_to_Excel-Automation/blob/main/images/oracle_raw_json_data.png)
 
 Step 3: Cross-referencing this data against the university's inventory of Oracle products and versions
