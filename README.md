@@ -44,9 +44,11 @@ By using this tool, the manual work is automated, completing the same task in un
 - pandas: 1.3.4
 
 ## ⚙️ Commands to install libraries
+```bash
 - sudo apt install jq
 - sudo apt install python3-pip
 - pip3 install pandas
+```
 
 ## Oracle CPU API data integration Link:
 https://www.oracle.com/security-alerts/#CriticalPatchUpdates
